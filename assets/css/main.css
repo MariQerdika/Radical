@@ -477,6 +477,7 @@ border-radius: 50%;
 .input_div label {
   position: absolute;
   top: 10px;
+  left:0;
   color: #454545;
   pointer-events: none;
   transition: .5s;
