@@ -345,6 +345,7 @@ nav li.active a {
   color: #27376c;
   font-size: 46px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .social_footer {
   padding: 55px 0;
@@ -436,6 +437,72 @@ margin-bottom: 2px;
 margin-right: 15px;
 border-radius: 50%;
 }
+.contact_form input {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.contact_form textarea {
+  height: 80px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e3e3e3;
+}
+.contact_form [type=submit] {
+  border: 2px solid #ec008c;
+  padding: 8px 39px 8px;
+    border-radius: 62px;
+    color: #ec008c;
+    background: #fff;
+    cursor: pointer;
+}
+.contact_form [type=submit]:hover {
+    color: #fff;
+  background-color: #ec008c;
+}
+.contact_form [type=submit]:hover i {
+  transform: rotate(360deg);
+}
+.input_div {
+  position: relative;
+}
+.input_div label {
+  position: absolute;
+  top: 10px;
+  color: #454545;
+  pointer-events: none;
+  transition: .5s;
+
+}
+
+.contact_form input:focus ~ label,
+.contact_form textarea:focus  ~ label {
+  top: -12px;
+  font-size: 12px;
+}
+.contact_form input:focus,
+.contact_form textarea:focus {
+
+  border-bottom: 1px solid #ec008c;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
