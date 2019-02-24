@@ -465,7 +465,12 @@ border-radius: 50%;
 }
 .contact_form [type=submit]:hover i {
   transform: rotate(360deg);
+  transition: all 0.3s ease 0s;
 }
+.fa-arrow-right {
+  padding-left: 10px;
+  }
+
 .input_div {
   position: relative;
 }
