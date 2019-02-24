@@ -1,11 +1,3 @@
-.menu_list, h1,h2,h3,h4,h5,h6, .text_left, .btn-success, .news, .news_more, .mail_block, .contr_img, .contributors_more, .company_img, .btn-danger,
-.gallery_links, .gallery_title, .form-control, .label-text, .hover15, .btn-red, .alert-success, .alert-danger {
-  font-family: 'BPGDejaVuSansCaps-Book';
-}
-
-.news_block, .about_center_content,  .about_bottom_content, .contributors_text, .contr_text, .popup_content, .inner_news_text, .packet_text, .scholarship_text, .student_block_text {
-font-family: 'BPG2017DejaVuSans';
-}
 html {
   scroll-behavior: smooth;
 }
@@ -108,6 +100,7 @@ nav {
   color: #a6b1d6;
   font-size: 24px;
   line-height: 35px;
+  font-family: 'ProximaNova-Semibold';
 }
 .contact {
   margin-top: 80px;
@@ -138,6 +131,9 @@ ul {
   list-style: none;
   padding-right: 10px;
   line-height: 30px;
+}
+.menu_list li a {
+  font-family: 'ProximaNova-Semibold';
 }
 .breadcrumbs li a {
   color: #8e9dce;
@@ -409,9 +405,9 @@ nav li.active a {
   text-decoration: none;  
 }
 .Top {
-  padding: 15px 25px 15px 30px;
+  padding: 10px 25px 10px 30px;
   border: 2px solid  #7d8bbc;
-  border-radius: 50%;
+  border-radius: 64px;
   color:  #7d8bbc; 
   display: inline-block;
   margin-top: 5px;
