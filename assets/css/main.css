@@ -6,7 +6,9 @@
 .news_block, .about_center_content,  .about_bottom_content, .contributors_text, .contr_text, .popup_content, .inner_news_text, .packet_text, .scholarship_text, .student_block_text {
 font-family: 'BPG2017DejaVuSans';
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -372,11 +374,46 @@ nav li.active a {
   width: 40px;
   height: 40px;
 }
-
-
-
-
-
+.rights {
+  background-color: #27376c;
+  padding: 40px 0;
+  color: #7d8bbc;
+}
+.copyright {
+  margin: 0;
+}
+.footer_policy li {
+  display: inline;
+}
+.footer_policy {
+  padding: 0;
+}
+.footer_policy li a  {
+  padding: 12px;
+  font-size: 12px;
+  color: #7d8bbc;
+}
+.footer_policy li a:hover {
+  color: #e83e8c;
+  text-decoration: none;  
+}
+.Top {
+  padding: 15px 25px 15px 30px;
+  border: 2px solid  #7d8bbc;
+  border-radius: 50%;
+  color:  #7d8bbc; 
+  display: inline-block;
+  margin-top: 5px;
+}
+.Top   i {
+  color:  #7d8bbc;
+  padding: 0 5px 0 10px;
+}
+.Top:hover {
+  background: rgba(125,139,188,.15);
+  color:  #7d8bbc;
+  text-decoration: none;
+}
 
 
 
